@@ -45,7 +45,6 @@ class Toggle extends React.Component {
   // 🐨 each of these compound components will need to be changed to use
   // ToggleContext.Consumer and rather than getting `on` and `toggle`
   // from props, it'll get it from the ToggleContext.Consumer value.
-  static Jon = () => <div />
 
   static On = ({ children }) => (
     <ToggleContext.Consumer>
